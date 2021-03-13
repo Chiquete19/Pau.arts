@@ -41,7 +41,7 @@
 						while ($row = $datos->fetch_assoc()) {
 							echo "<tr>";
 								echo "<td>".$row["id"]."</td>";
-								echo "<td>".$row["img"]."</td>";
+								echo "<td><img src=".$row['img']." style='width:70px;height:90px;'></img></td>";
 								echo "<td>".$row["imgdescripciones"]."</td>";
 								echo "<td>".$row["nombre"]."</td>";
 								echo "<td>".$row["descripcion"]."</td>";
